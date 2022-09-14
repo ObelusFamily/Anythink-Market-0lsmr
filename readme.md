@@ -10,4 +10,13 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+Below are the steps to setup the project locally
+
+1) Clone the repo (Do not fork it please)
+2) Ensure you have docker compose locally [Docker](https://docs.docker.com/compose/install)
+    - You can check the installation using the command `docker -v` and `docker-compose -v`
+3) Start the backend and frontend from the container using the command `docker-compose up`
+    - The backend will be mapped to the port `3000` and the frontend on port `3001`
+
+Enjoy 😀
+
